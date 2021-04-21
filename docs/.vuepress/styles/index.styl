@@ -54,7 +54,6 @@ h1 {
     transition: all .5s;
 }
 
-
 // 页面侧边栏
 .sidebar-group
   .sidebar-heading.open
@@ -66,16 +65,41 @@ h1 {
   .side-bar.sub-sidebar-wrapper
       top 7rem
       bottom 14rem
-// 时间线样式
-.timeline-wrapper .year {
-  margin: 80px 0px 20px !important;
-  font-size: 27px !important;
-}
-.timeline-wrapper .year-wrapper li span {
-  transition: all .5s;
-}
-.timeline-wrapper .year-wrapper li:hover {
-  .title {
-    transform: translate(30px, 0);
-  }
-}
+
+// index.styl
+.theorem
+  margin 1rem 0
+  padding .1rem 1.5rem
+  border-radius 0.4rem
+  background-color #f0f4f8
+  .title
+    font-weight bold
+
+.custom-block
+  &.right
+    color transparentify($textColor, 0.4)
+    font-size 0.9rem
+    text-align right
+
+// 头像样式
+.avatar
+  width 80% !important
+  height 80% !important
+  margin 0 auto
+  margin-top 20px
+  border-radius 50%
+.blogger
+  text-align center
+
+.banner
+  min-height 200px !important
+
+.banner-conent
+  padding-top: 0 !important
+
+.theme-code-group
+  margin-top 16px
+  padding 0px 0px 0px 0px !important
+  .theme-code-group__nav
+    padding-bottom: 32px !important
+    margin-bottom -48px !important

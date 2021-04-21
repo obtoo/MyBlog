@@ -2,5 +2,23 @@
 $accentColor = #3eaf7c                      // 主题颜色
 $textColor = #2c3e50                        // 文本颜色
 $borderColor = #eaecef                      // 边框线颜色
-$codeBgColor = #282c34                      // 代码块背景色
-$backgroundColor = #ffffff                  // 悬浮块背景色
+$backgroundColor = #ffffff66                  // 悬浮块背景色
+
+
+// 浅色模式
+.theme-mode-light
+  --bodyBg: #f4f4f4
+  --mainBg: rgba(255,255,255,1)
+  --sidebarBg: rgba(255,255,255,.8)
+  --blurBg: rgba(255,255,255,.9)
+  --textColor: #004050
+  --textLightenColor: #0085AD
+  --borderColor: rgba(0,0,0,.15)
+  // 代码块浅色主题
+  --codeBg: #f6f6f6
+  --codeColor: #525252
+  codeThemeLight()
+  // 代码块深色主题
+  --codeBg: #252526
+  --codeColor: #fff
+  codeThemeDark()
