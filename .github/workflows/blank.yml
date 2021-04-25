@@ -7,7 +7,6 @@ on:
       
 jobs:  
   sync: #同步到gitee仓库
-    needs: deploy
     runs-on: ubuntu-latest
     steps:
     - name: Sync to Gitee
