@@ -7,7 +7,7 @@ module.exports = ctx => ({
   // meta中展示
   description: '欢迎来到我的小站',
   // 这是部署到github相关的配置
-  base: '/',
+  base: '/my-blog/',
   // 主题reco
   theme: 'vdoing',
   // 注入到当前页面的 HTML <head> 中的标签
